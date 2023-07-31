@@ -37,7 +37,7 @@ disableKinds = ["RSS"]
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "It’s not the mountain we conquer, but ourselves (Edmund Hillary)"
+  homeSubtitle = "It’s not the mountain we conquer, but ourselves"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   bgImg = "images/mountain.jpg"
 
