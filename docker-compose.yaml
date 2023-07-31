@@ -5,6 +5,7 @@ services:
     command: >
       server 
         --environment ${HUGO_ENVIRONMENT}
+        --appendPort=false
         --disableFastRender 
         --port ${HUGO_PORT}
         --baseURL ${HUGO_BASEURL}

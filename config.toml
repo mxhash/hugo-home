@@ -1,4 +1,4 @@
-baseURL = "https://charon.int.netways.de"
+baseURL = "https://charon.netways.de"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "ITSOCKS Home"
