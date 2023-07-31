@@ -1,0 +1,24 @@
+html {
+  background: #112C30;
+}
+
+.bg-img {
+  opacity: 1;
+}
+
+body, button, input, select, textarea {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+.title-right {
+  text-align: right !important;
+  font-size: 0.6em !important;
+}
+
+.title-right a {
+  text-decoration: underline;
+}

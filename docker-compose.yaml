@@ -1,7 +1,19 @@
+version: "3.2"
+services:
   hugo:
     image: klakegg/hugo:0.101.0
-    command: server
+    command: >
+      server 
+        --environment ${HUGO_ENVIRONMENT}
+        --disableFastRender 
+        --port ${HUGO_PORT}
+        --baseURL ${HUGO_BASEURL}
     volumes:
-      - ".:/src"
+      - "${PWD}:/src"
     ports:
-      - "9011:1313"
+      - "${HUGO_PORT}:${HUGO_PORT}"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "5"
