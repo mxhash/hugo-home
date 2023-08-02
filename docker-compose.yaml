@@ -13,6 +13,7 @@ services:
       - "${PWD}:/src"
     ports:
       - "${HUGO_PORT}:${HUGO_PORT}"
+    restart: unless-stopped
     logging:
       driver: "json-file"
       options:
