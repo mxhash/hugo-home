@@ -6,7 +6,8 @@ services:
       server 
         --environment ${HUGO_ENVIRONMENT}
         --appendPort=false
-        --disableFastRender 
+        --disableFastRender
+        --disableLiveReload
         --port ${HUGO_PORT}
         --baseURL ${HUGO_BASEURL}
     volumes:
