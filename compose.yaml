@@ -3,6 +3,7 @@ version: "3.2"
 services:
   hugo:
     image: klakegg/hugo:0.101.0
+    container_name: "hugo-home"
     command: >
       server 
         --environment ${HUGO_ENVIRONMENT}
